@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex ml-auto gap-4">
-            {['Home', 'Projects', 'Education', 'Contact'].map((item) => (
+            {['Home', 'Projects', 'Education', 'Changelog', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
