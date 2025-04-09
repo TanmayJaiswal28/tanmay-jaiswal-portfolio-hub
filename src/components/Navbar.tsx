@@ -1,11 +1,6 @@
 
-import { useState } from 'react';
-
 const Navbar = () => {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
   const scrollToSection = (id: string) => {
-    setMobileMenuOpen(false);
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
