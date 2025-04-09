@@ -18,11 +18,11 @@ const Navbar = () => {
         <nav className="flex items-center">
           <div className="flex items-center gap-2">
             <div className="bg-black w-6 h-6"></div>
-            <div className="text-md">your name</div>
+            <div className="text-md">Tanmay Jaiswal</div>
           </div>
 
           <div className="hidden md:flex ml-auto gap-4">
-            {['Home', 'Projects', 'Articles', 'Contact'].map((item) => (
+            {['Home', 'Projects', 'Education', 'Contact'].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item.toLowerCase())}
