@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -73,7 +72,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-white text-black font-sans;
   }
 
   html {
@@ -83,20 +82,22 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-portfolio-primary text-white px-6 py-2.5 rounded-lg font-medium 
-           hover:bg-portfolio-secondary transition-colors shadow-md;
+    @apply bg-black text-white px-4 py-1 text-sm hover:opacity-80 transition-opacity;
   }
 
   .section-title {
-    @apply text-3xl font-bold mb-10 text-portfolio-dark relative inline-block;
+    @apply text-lg font-bold mb-2;
   }
 
-  .section-title::after {
-    content: '';
-    @apply absolute bottom-[-10px] left-0 w-12 h-1 bg-portfolio-primary;
+  .table-layout {
+    @apply w-full border-collapse border border-gray-300;
+  }
+  
+  .table-layout td {
+    @apply border border-gray-300 p-4 align-top;
   }
 
-  .card-hover {
-    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  .handwritten {
+    @apply font-[cursive];
   }
 }
