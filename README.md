@@ -1,73 +1,52 @@
-# Welcome to your Lovable project
+Project URL - https://roadmap.sh/projects/basic-html-website
+LINK TO WEBSITE- tanmay-jaiswal-portfolio-hub.lovable.app
+Project Title: Multi-Page HTML Website (Unstyled)
 
-## Project info
+Project Description:
+I've created a semantic HTML-only website with four interconnected pages:
 
-**URL**: https://lovable.dev/projects/e6a60232-440f-43fe-b28a-24d8f2b2d274
+Homepage (index.html) - Introduction and main content
 
-## How can I edit this code?
+Projects (projects.html) - Showcase of my work
 
-There are several ways of editing your application.
+Articles (articles.html) - Blog-style content
 
-**Use Lovable**
+Contact (contact.html) - With a functional form
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e6a60232-440f-43fe-b28a-24d8f2b2d274) and start prompting.
+Key Features:
+✅ Proper HTML5 semantic structure (header, nav, main, section, footer)
+✅ Consistent navigation across all pages
+✅ SEO-optimized with meta tags (description, keywords, viewport)
+✅ Contact form with basic fields (name, email, message)
+✅ Clean, unstyled markup ready for future CSS implementation
 
-Changes made via Lovable will be committed automatically to this repo.
+Technical Implementation:
 
-**Use your preferred IDE**
+Pure HTML with no CSS or JavaScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Logical document structure for easy styling later
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Accessible form labels and input fields
 
-Follow these steps:
+Relative linking between all pages
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Files Included:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+index.html
 
-# Step 3: Install the necessary dependencies.
-npm i
+projects.html
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+articles.html
 
-**Edit a file directly in GitHub**
+contact.html
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+This project demonstrates my understanding of:
 
-**Use GitHub Codespaces**
+Multi-page website architecture
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Semantic HTML best practices
 
-## What technologies are used for this project?
+Basic SEO principles
 
-This project is built with:
+Form structure and accessibility
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e6a60232-440f-43fe-b28a-24d8f2b2d274) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes it is!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
